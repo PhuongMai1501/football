@@ -1,0 +1,48 @@
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+__pycache__/
+
+# Python env / packaging
+*.pyc
+.venv/
+.idea/
+.vscode/
+
+# Large media artifacts
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.gif
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# Project video/image folders
+input_videos/
+output_videos/
+training/data/
+parseq/models/
+development_and_analysis/
+analysis/
+
+# Model weights / checkpoints
+models/
+parseq/outputs/
+
+# Logs & caches
+*.log
+*.jsonl
+
+# Temporary files
+promote.txt
+promote_heatmap.txt
+promote_jersey_id.txt
+promote_teamasign.txt

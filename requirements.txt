@@ -1,0 +1,30 @@
+torch>=2.1.0
+torchvision>=0.16.0
+ultralytics>=8.0.100
+
+# Tracking & ReID (BoT-SORT, FastReID)
+filterpy>=1.4.5
+lapx>=0.5.12
+easydict>=1.10
+yacs>=0.1.8
+termcolor>=2.3.0
+faiss-cpu>=1.7.4
+tabulate>=0.9.0
+
+# CV
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+numpy>=1.23.0
+scipy>=1.10.0
+Pillow>=9.5.0
+matplotlib>=3.7.2
+supervision>=0.25.0
+
+# Clustering & Team Color Detection 
+scikit-learn>=1.3.0
+
+# Utilities
+psutil>=5.9.5
+pandas>=2.0.3
+tqdm>=4.66.0
+pyyaml>=6.0.1
